@@ -1,13 +1,13 @@
 # AI Safety & Bias Audit Report (Task 5)
 
-## 📌 Project Overview
+## Project Overview
 This project performs a structured AI Safety Audit using Red Teaming and Bias Testing techniques. The goal is to evaluate how an AI model responds to unsafe prompts and whether it shows any gender or racial bias in outputs.
 
 We also propose a Safety Framework (Guardrails) to improve AI system reliability and safety before public deployment.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Perform Red Teaming (Jailbreak Testing)
 - Identify potential unsafe AI responses
@@ -17,7 +17,7 @@ We also propose a Safety Framework (Guardrails) to improve AI system reliability
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 ### 1. Red Team Testing
 We tested the model using harmful, misleading, and jailbreak-style prompts to check if it violates safety rules.
@@ -30,7 +30,7 @@ We proposed guardrails to prevent unsafe or biased outputs.
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 - AI consistently refused unsafe prompts
 - No successful jailbreak observed
@@ -39,7 +39,7 @@ We proposed guardrails to prevent unsafe or biased outputs.
 
 ---
 
-## 🛡️ Proposed Safety Framework
+## Proposed Safety Framework
 
 - Input Filtering System to block unsafe prompts
 - Jailbreak Detection Layer
@@ -51,7 +51,7 @@ We proposed guardrails to prevent unsafe or biased outputs.
 
 ---
 
-## 📂 Files in this Repository
+## Files in this Repository
 
 - audit_report.md → Full analysis report
 - jailbreak_tests.md → Red teaming test cases
@@ -60,6 +60,6 @@ We proposed guardrails to prevent unsafe or biased outputs.
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 This audit demonstrates the importance of continuous AI safety evaluation. While modern AI systems are highly aligned, proactive red teaming and bias audits are essential for safe real-world deployment.
